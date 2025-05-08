@@ -5,6 +5,7 @@
 
 -- Make line numbers default
 vim.opt.number = true
+
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
 vim.opt.relativenumber = true
@@ -62,6 +63,6 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 -- conceal for obsidian.nvim
-vim.opt.conceallevel = 2
+-- vim.opt.conceallevel = 2
 
 -- vim: ts=2 sts=2 sw=2 et
